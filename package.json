@@ -1,0 +1,27 @@
+{
+  "name": "daniel-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "now-build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilags/daniel-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilags/daniel-web/issues"
+  },
+  "homepage": "https://github.com/danilags/daniel-web#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "styled-components": "^4.2.0"
+  }
+}
