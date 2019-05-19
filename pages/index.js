@@ -18,11 +18,19 @@ class Index extends React.Component {
     return (
       <div>
         <meta charSet="utf-8" />
-        <title>Daniel Agus Sidabutar - Web and Mobile Developer</title>
-        <link rel='stylesheet' type='text/css' href='/static/index.css' />
+        <title>Daniel Agus Sidabutar, Frontend & Backend Developer Jakarta | danilags</title>
+        <link rel="stylesheet" type='text/css' href='/static/index.css' />
+        <link rel="canonical" href="https://www.danilags.com" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Daniel Agus Sidabutar - danilags" />
-        <meta name="description" content="Daniel Agus Sidabutar - danilags" />
+        <meta name="title" content="Daniel Agus Sidabutar, Frontend & Backend Developer Jakarta | danilags" />
+        <meta name="description" content="Software Engineer, Frontend Developer, Backend Developer, Software Developer Jakarta 'Full Stack Engineer' | danilags" />
+        
+        <meta property="og:title" content="Daniel Agus Sidabutar, Frontend & Backend Developer Jakarta | danilags" />
+        <meta name="og:description" content="Software Engineer, Frontend Developer, Backend Developer, Software Developer Jakarta 'Full Stack Engineer' | danilags" />
+        <meta property="og:site_name" content="DANILAGS" />
+        <meta property="og:url" content="https://www.danilags.com" />
+        <meta property="og:image" content="https://avatars2.githubusercontent.com/u/19871120?s=460&v=4" />
+        <meta name="twitter:site" content="@danil_ags" />
         <div style={{ 
           width: '80%',
           margin: '0 auto',
@@ -34,7 +42,7 @@ class Index extends React.Component {
           padding: '10px'
         }}>
           <figure className="swing-danilags" style={{ width: 200, margin: '0 auto' }}>
-            <Image style={{ width: '100%', borderRadius: '50%' }} src="https://media.licdn.com/dms/image/C5103AQGQPvMf9h7yKg/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=UF6kMn06zH1d9-ofX7MDU76KbcQvAXay4foYM5Rgo4I" />
+            <Image style={{ width: '100%', borderRadius: '50%' }} src="https://avatars2.githubusercontent.com/u/19871120?s=460&v=4" />
           </figure>
           <h1 style={{ fontSize: 20, color: '#4a4a4a' }}>I’m professionally experienced in web & mobile applications that capable of doing full stack development</h1>
           <p>Daniel Agus Sidabutar - Frontend and Backend Engineer</p>
@@ -75,6 +83,7 @@ class Index extends React.Component {
               </p>
             </a>
           </div>
+          
         </div>
       </div>
     )
@@ -91,7 +100,7 @@ const ImageWrapper = styled.span`
 const Image = styled.img`
   height: 100%;
   width: 100%;
-  border-radius: 50%;
+  // border-radius: 50%;
 `;
 
 export default Index;
