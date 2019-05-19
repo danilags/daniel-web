@@ -21,6 +21,7 @@ class Index extends React.Component {
         <title>Daniel Agus Sidabutar, Frontend & Backend Developer Jakarta | danilags</title>
         <link rel="stylesheet" type='text/css' href='/static/index.css' />
         <link rel="canonical" href="https://www.danilags.com" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="title" content="Daniel Agus Sidabutar, Frontend & Backend Developer Jakarta | danilags" />
         <meta name="description" content="Software Engineer, Frontend Developer, Backend Developer, Software Developer Jakarta 'Full Stack Engineer' | danilags" />
@@ -39,7 +40,8 @@ class Index extends React.Component {
           textAlign: 'center', 
           fontFamily: 'Futura',
           justifyContent: 'center',
-          padding: '10px'
+          padding: '10px',
+          fontFamily: "'Roboto', sans-serif"
         }}>
           <figure className="swing-danilags" style={{ width: 200, margin: '0 auto' }}>
             <Image style={{ width: '100%', borderRadius: '50%' }} src="https://avatars2.githubusercontent.com/u/19871120?s=460&v=4" />
@@ -55,7 +57,7 @@ class Index extends React.Component {
               display: 'flex', 
               flexDirection: 'row', 
               textAlign: 'center', 
-              fontFamily: 'Futura',
+              // fontFamily: 'Futura',
               justifyContent: 'space-around',
               width: '50%',
               margin: '0 auto',
