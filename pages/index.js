@@ -46,12 +46,17 @@ class Index extends React.Component {
           <figure className="swing-danilags" style={{ width: 200, margin: '0 auto' }}>
             <Image style={{ width: '100%', borderRadius: '50%' }} src="https://avatars2.githubusercontent.com/u/19871120?s=460&v=4" />
           </figure>
-          <h1 style={{ fontSize: 20, color: '#4a4a4a' }}>I’m professionally experienced in web & mobile applications that capable of doing full stack development</h1>
-          <p>Daniel Agus Sidabutar - Frontend and Backend Engineer</p>
+          <h1 style={{ fontSize: 20, color: '#4a4a4a' }}>
+            Hi, I'm Daniel Agus Sidabutar a fan of technology and computer programming 
+          </h1>
           <p>
-            @danilags Software Engineer who's passionate about programming, technology, and trying out new things. 
+            I'm also interested in web development, software design/architect and talking about innovation with code. Excellent team player with positive attitude, problem solver, and fast learner. 
+            Experienced in full stack development software with React, React Native, Vue.js, PHP, Node.js & Ruby and Rails. 
           </p>
-          <p>(Working on React, React Native and Node.JS)</p>
+          {/* <p>
+            @danilags Software Engineer who's passionate about programming, technology, and trying out new things. 
+          </p> */}
+          <p>(Working on React, React Native, Node.JS and Ruby & Rails)</p>
           <div
             style={{ 
               display: 'flex', 
@@ -64,26 +69,33 @@ class Index extends React.Component {
               padding: '0 10px'
             }}
           >
-            <a href="https://github.com/danilags">
+            <a href="https://github.com/danilags" target="_blank">
               <p style={{ padding: '0 10px' }}>
                 GitHub 
               </p>
             </a>
-            <a href="https://medium.com/@danilags">
+            <a href="https://medium.com/@danilags" target="_blank">
               <p style={{ padding: '0 10px' }}>
                 Medium 
               </p>
             </a>
-            <a href="https://www.linkedin.com/in/daniel-agus-sidabutar-0324b6106/">
+            <a href="https://www.linkedin.com/in/daniel-agus-sidabutar-0324b6106/" target="_blank">
               <p style={{ padding: '0 10px' }}>
                 LinkedIn 
               </p>
             </a>
-            <a href="https://twitter.com/danil_ags">
+            <a href="https://www.instagram.com/danilags/" target="_blank">
+              <p style={{ padding: '0 10px' }}>
+                Instagram 
+              </p>
+            </a>
+            <a href="https://twitter.com/danil_ags" target="_blank">
               <p style={{ padding: '0 10px' }}>
                 Twitter 
               </p>
             </a>
+
+            
           </div>
           
         </div>
